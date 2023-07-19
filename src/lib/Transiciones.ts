@@ -81,7 +81,7 @@ transiciones = [
         ...numTo(17)
     },
     {// [1] =
-        ...def,
+        ...def, // ACEPTACION =
     },
     {// [2] +
         ...def,

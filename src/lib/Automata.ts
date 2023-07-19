@@ -32,7 +32,7 @@ const parseChar = (c: string): string => {
     ]
     return s.includes(c) ? c : '~'
 }
-export const A = [17, 20, 23, 25, 27, 28, 29, 40, 43, 48]
+export const A = [1, 17, 20, 23, 25, 27, 28, 29, 40, 43, 48]
 export const evaluateAFD = (s: string): number[] => {
     let estado = 0
     const ans = [0]
